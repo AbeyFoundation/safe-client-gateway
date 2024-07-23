@@ -1567,12 +1567,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@npm:^1.37.1":
-  version: 1.37.1
-  resolution: "@safe-global/safe-deployments@npm:1.37.1"
+"@safe-global/safe-deployments@git+https://github.com/safe-global/safe-deployments#38ca4eb81fe1c2327c2f7ea66d982cc4a7577bdb":
+  version: 1.37.2
+  resolution: "@safe-global/safe-deployments@https://github.com/safe-global/safe-deployments.git#commit=38ca4eb81fe1c2327c2f7ea66d982cc4a7577bdb"
   dependencies:
     semver: "npm:^7.6.2"
-  checksum: 10/2cb05ad0d1768264885d9e92d1fcc1340af77f88605ac46fd99b8aa4118d923671e4bb3d380e3dd7caa13ca4e8ed6edae4765dd5394b78966a51f391375d683b
+  checksum: 10/7b9c3035a3b6c5c5d8df21950e1b98894d148fbe7e5cbcc77c490e47064e55341f2bbe63184daac3431bcfd022353cd68d2c4b55299f1cd80228377fe5398ea3
   languageName: node
   linkType: hard
 
@@ -7183,7 +7183,7 @@ __metadata:
     "@nestjs/serve-static": "npm:^4.0.2"
     "@nestjs/swagger": "npm:^7.3.1"
     "@nestjs/testing": "npm:^10.3.10"
-    "@safe-global/safe-deployments": "npm:^1.37.1"
+    "@safe-global/safe-deployments": "git+https://github.com/safe-global/safe-deployments#38ca4eb81fe1c2327c2f7ea66d982cc4a7577bdb"
     "@types/amqplib": "npm:^0"
     "@types/cookie-parser": "npm:^1.4.7"
     "@types/express": "npm:^4.17.21"
